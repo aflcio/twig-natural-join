@@ -1,6 +1,6 @@
 <?php
 
-namespace Cviebrock\Twig;
+namespace Cubetech\Twig;
 
 class NaturalJoinExtension extends \Twig_Extension {
 
@@ -11,7 +11,7 @@ class NaturalJoinExtension extends \Twig_Extension {
 		 */
 		public function getName()
 		{
-			return 'cviebrock/natural-join';
+			return 'cubetech/natural-join';
 		}
 
 

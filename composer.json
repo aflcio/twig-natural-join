@@ -20,8 +20,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/cviebrock/twig-natural-join/issues",
-        "source": "https://github.com/cviebrock/twig-natural-join"
+        "issues": "https://github.com/cubetech/twig-natural-join/issues",
+        "source": "https://github.com/cubetech/twig-natural-join"
     },
     "require": {
         "twig/twig": "2.*",

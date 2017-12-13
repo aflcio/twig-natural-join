@@ -22,7 +22,7 @@ class NaturalJoinExtension extends \Twig_Extension {
 		public function getFilters()
 		{
 			return array(
-				'naturaljoin' => new \Twig_Filter_Method($this, 'naturalJoin')
+				'naturaljoin' => new \Twig_SimpleFilter($this, 'naturalJoin')
 			);
 		}
 

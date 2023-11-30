@@ -2,7 +2,10 @@
 
 namespace Cubetech\Twig;
 
-class NaturalJoinExtension extends \Twig_Extension {
+use Twig\Extension\AbstractExtension;
+use Twig\TwigFilter;
+
+class NaturalJoinExtension extends AbstractExtension {
 
 		/**
 		 * Return extension name
@@ -22,7 +25,7 @@ class NaturalJoinExtension extends \Twig_Extension {
 		public function getFilters()
 		{
 			return array(
-				'naturaljoin' => new \Twig_SimpleFilter('naturalJoin', [$this, 'naturalJoin'])
+				'naturaljoin' => new TwigFilter('naturalJoin', [$this, 'naturalJoin'])
 			);
 		}
 
